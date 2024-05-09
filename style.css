@@ -69,3 +69,32 @@ header{
 .navbar a:hover {
     color: var(--text-color);
 }
+/*Home*/
+.home-content{
+    min-height: 640px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.home-text h1{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+.home-text p{
+    margin-bottom: 1rem;
+}
+.btn{
+display: inline-flex;
+align-items: center;
+column-gap: 0.5rem;
+background: var(--text-color);
+color: var(--bg-color);
+padding: 16px 24px;
+border-radius: o.4rem;
+}
+.btn .bx{
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background: var(--hover-color);
+}
